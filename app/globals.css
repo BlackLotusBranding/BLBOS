@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #090708;
+  --foreground: #f8f8f8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #c69a88;
+  color: #090708;
+}
+
+.lotus-card {
+  background: linear-gradient(180deg, rgba(22, 19, 20, 0.92), rgba(43, 29, 26, 0.7));
+  border: 1px solid rgba(198, 154, 136, 0.22);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
