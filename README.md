@@ -1,27 +1,13 @@
-# Black Lotus OS V1
+# Black Lotus Branding Static V1
 
-Stable V1 foundation for Black Lotus Branding.
+This is a working GitHub Pages version.
 
-## Run locally
+Upload these files to the root of the repo:
+- index.html
+- style.css
+- script.js
 
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-```
-
-## V1 Rules
-
-- No animation foundation
-- No database
-- No portal
-- No login
-- No payment system
-- No external form logic
-
-This version is meant to deploy cleanly first.
+GitHub Pages settings:
+- Source: Deploy from a branch
+- Branch: main
+- Folder: /(root)
